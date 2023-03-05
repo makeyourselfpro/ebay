@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+button{
+padding: 10px 50px;
+font-size: 15px;
+color: white;
+background-color: darkgreen;
+border: none;
+margin-left: -10px;
+}
+select{
+border: none;
+background-color: transparent;
+}
+h1{
+font-size: 50px;
+font-weight: 600;
+}
+a,p,h2,h3,h4,h5,h6{
+padding: 5px 10px;
+font-weight: 100;
+font-size: 12px;
+}
+div{
+width: 85%;
+}
+/* < !-- navigation bar --> */
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5px;
+width: 100%;
+border-bottom: 1px solid rgba(203, 200, 200, 0.951);
+}
+nav>ul{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+/* < !-- navigation bar --> */
+
+
+
+
+
+/* < !-- footer top --> */
+.row2{
+  height: 300px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-top: 1px solid rgba(203, 200, 200, 0.951);
+margin-top: 50px;
+}
+.row2>.content{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.row2>.content>.mylist {
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+}
+.row2>.content>.mylist>ul{
+  display: flex;
+  flex-direction: column;
+}
+.row2>.content>.mylist>ul>h3{
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(74, 73, 73);
+}
+.row2>.content>.mylist>ul>a{
+  text-decoration: none;
+  color: gray;
+}
+/* < !-- footer top --> */
+
+
+
+
+
+
+
+
+
+
+
+
+/* < !-- end footer --> */
+footer{
+  padding: 50px;
+  padding-top: 0;
+}
+footer>a{
+  text-decoration: none;
+}
+/* < !-- end footer --> */

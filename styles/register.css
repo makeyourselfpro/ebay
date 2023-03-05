@@ -1,0 +1,52 @@
+.signin-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signin-nav>a {
+  text-decoration: none;
+}
+
+
+/* < !-- header --> */
+.signin-header {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* < !-- header --> */
+
+
+
+
+
+
+
+
+
+
+
+
+/* < !-- end footer --> */
+footer {
+  padding: 10px;
+  padding-top: 0;
+  border-top: 1px solid rgb(191, 190, 190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer>a {
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+  margin-top: 12px;
+}
+
+/* < !-- end footer --> */
